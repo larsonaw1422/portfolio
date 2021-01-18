@@ -1,0 +1,284 @@
+body{
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 20px;
+}
+
+
+
+/***** Grid *****/
+
+.full-width{
+	width: 1200px;
+	overflow: auto;
+	margin:0 auto;
+}
+
+.half-width{
+	width: 600px;
+	float: left;
+}
+
+.third-width{
+	width: 400px;
+	height: auto;
+}
+
+
+/***** Header *****/
+
+nav {
+	float: right;
+	padding: 20px 25px 0px 0px;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size: 18px;
+	color: white;
+	padding-left: 10px;
+}
+
+
+#headers{
+	height: 500px;
+	background: url('../img/surfoffice.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
+#intro {
+	font-size: 38px;
+}
+
+header h1{
+	font-size: 48px;
+	font-style: italic;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 50px 0px 0px 0px;
+	clear: both;
+	font-family: 'Roboto Slab';  
+}
+
+header h2{
+	font-size: 32px;
+	color: white;
+	text-align: center;
+	padding: 10px 0px 20px 0px;
+	clear: both;
+	font-family: 'Roboto';
+}
+
+
+/***** Work*****/
+
+#work .full-width{
+	height: 1100px;
+	padding-left: 50px;
+}
+
+#work{
+	text-align: center;
+
+}
+
+.headers3{
+	font-size: 40px;
+	font-weight: Bold;
+	font-family: 'Roboto Slab';
+	margin: 25px 0px 25px 0px;
+	text-align: center;
+	
+}
+
+.image1 img{
+	margin-left:10px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	width: 500px;
+	height: auto;
+	border: 3px solid #05d1f3;
+}
+
+
+#JubileeAusten h3{
+	margin: 30px 100px 0px 0px;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: bold; 
+	font-size: 28px; 
+}
+
+#JubileeAusten h4{
+	margin: 10px 100px 10px 0px;
+	font-family: 'Roboto';
+	font-weight: normal; 
+	font-size: 22px; 
+	text-align: center;
+}
+
+#JubileeAusten p{
+	margin: 0px 0px 40px 0px;
+	width: 500px;
+	text-align: center;
+}
+
+#RoguePickings h3{
+	margin: 0px 100px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: 'Roboto';
+	font-weight: bold; 
+	font-size: 28px; 
+	text-align: center;
+}
+
+#RoguePickings h4{
+	margin: 10px 100px 10px 0px;
+	font-family: 'Roboto';
+	font-weight: normal; 
+	font-size: 22px;
+	text-align: center; 
+}
+
+#RoguePickings p{
+	margin: 0px 0px 50px 0px;
+	width: 500px;
+	text-align: center;
+}
+
+#RecipeCollection h3{
+	margin: 75px 100px 0px 0px;
+	font-family: 'Roboto';
+	font-weight: bold; 
+	font-size: 28px; 
+	text-align: center;
+}
+
+#RecipeCollection h4{
+	margin: 10px 100px 10px 0px;
+	font-family: 'Roboto', 'italic';
+	font-weight: normal; 
+	font-size: 22px; 
+	text-align: center;
+}
+
+
+#RecipeCollection p{
+	margin: 0px 0px 50px 0px;
+	width: 500px;
+	text-align: center;
+}
+
+/***** About *****/
+
+#about {
+	text-align: center;
+	background-color: #84ebfc;
+}
+
+#about h3{
+	margin: 25px 0px 25px 0px;
+}
+
+#about p{
+	width: 450px;
+	line-height: 30px;
+	margin-right: 125px;
+}
+
+#aboutme {
+	float: right;
+}
+
+#about{
+	height: 600px;
+}
+
+#images img{
+	margin: 0 auto;
+	width: 400px;
+	height: auto;
+	border: 5px solid #05d1f3;
+}
+
+
+
+/***** Contact *****/
+
+#contact .full-width{
+	margin: 10px auto;
+}
+
+#contact{
+	height: 350px;
+	background-color: #05d1f3;
+	color: black;
+	font-family: 'Roboto';
+	font-weight: normal;
+}
+
+
+#contact h3{
+	height: 25px;
+	font-size: 40px;
+	font-weight: Bold;
+	font-family: 'Roboto Slab';
+	text-align: center;
+	margin: 25px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+#block1{
+	text-align: center;
+	float: left;
+	height: 25px;
+}
+
+#block2{
+	text-align: center;
+	float: left;
+}
+
+#block3{
+	text-align: center;
+	float: left;
+}
+
+.hire{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#contact ul{
+	list-style: none;
+	text-align: center;
+	font-size: 10px;
+}
+
+#contact ul li{
+	display: inline-block;
+}
+
+#contact ul img{
+	padding-right: 25px;
+}
+
+.socialmedia img{
+	width: 25px;
+	height: auto;
+}
+
+#copyright{
+	text-align: center;
+	margin: 10px auto;
+}
+
